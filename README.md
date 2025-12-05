@@ -1,5 +1,7 @@
 # Database Backup CLI Utility
 
+[Project brief by Roadmap.sh](https://roadmap.sh/projects/database-backup-utility)
+
 A command-line interface (CLI) utility designed to back up any type of database. The tool supports multiple database management systems (DBMS) such as MySQL, PostgreSQL, MongoDB, SQLite, and others. It includes features for automatic backup scheduling, compression, flexible storage options (local and cloud), and detailed logging of backup activities.
 
 ## Project Goals
