@@ -16,5 +16,13 @@ dependencies = [
     "pymongo>=4.15.5",
     "pymysql>=1.1.2",
     "python-dotenv>=1.2.1",
+    "ruff",
     "schedule>=1.2.2",
 ]
+
+[build-system]
+requires = ["uv_build>=0.7.21"]
+build-backend = "uv_build"
+
+[project.scripts]
+dbu = "database_backup_utility.cli:cli"
