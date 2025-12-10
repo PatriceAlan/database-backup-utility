@@ -1,6 +1,5 @@
 import click
 from database_backup_utility.utils.context import AppContext
-from database_backup_utility.backup.backup import backup
 
 @click.group()
 @click.option("-c", "--config", type=click.Path(), help="Path to configuration file.")
